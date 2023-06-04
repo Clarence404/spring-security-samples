@@ -63,7 +63,7 @@ public class SamlExtensionUrlsApplicationITests {
 	void authenticationAttemptWhenValidThenShowsUserEmailAddress() throws Exception {
 		performLogin();
 		HtmlPage home = (HtmlPage) this.webClient.getCurrentWindow().getEnclosedPage();
-		assertThat(home.asNormalizedText()).contains("You're email address is user1@example.org");
+		assertThat(home.asNormalizedText()).contains("Your email address is user1@example.org");
 	}
 
 	@Test
