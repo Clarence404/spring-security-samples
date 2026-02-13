@@ -19,7 +19,7 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
 
   - package-ecosystem: "gradle"
-    target-branch: "6.2.x"
+    target-branch: "7.0.x"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -35,7 +35,7 @@ updates:
         update-types: [ "version-update:semver-major", "version-update:semver-minor" ]
 
   - package-ecosystem: "gradle"
-    target-branch: "6.1.x"
+    target-branch: "6.5.x"
     directory: "/"
     schedule:
       interval: "weekly"
