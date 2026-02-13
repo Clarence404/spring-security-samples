@@ -5,6 +5,9 @@ updates:
   - package-ecosystem: "gradle"
     target-branch: "main"
     directory: "/"
+    labels:
+      - "type: dependency-upgrade"
+      - "in: build"
     schedule:
       interval: "weekly"
       time: "03:00"
@@ -21,6 +24,9 @@ updates:
   - package-ecosystem: "gradle"
     target-branch: "7.0.x"
     directory: "/"
+    labels:
+      - "type: dependency-upgrade"
+      - "in: build"
     schedule:
       interval: "weekly"
       time: "03:00"
@@ -37,6 +43,9 @@ updates:
   - package-ecosystem: "gradle"
     target-branch: "6.5.x"
     directory: "/"
+    labels:
+      - "type: dependency-upgrade"
+      - "in: build"
     schedule:
       interval: "weekly"
       time: "03:00"
